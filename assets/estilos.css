@@ -183,3 +183,16 @@ article:first-child {
   text-decoration: none;
   color: var(--onecolor);
 }
+/*  */
+/* ABAU AS */
+/*  */
+
+.about-us h2 {
+  font-family: var(--twofont);
+  font-size: 24px;
+  text-align: center;
+
+  span {
+    color: var(--onecolor);
+  }
+}
