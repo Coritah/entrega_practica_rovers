@@ -1,0 +1,93 @@
+/* <!-- HEADER --> */
+.colorB {
+  background-color: var(--twocolor);
+}
+.Contact {
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Contact a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--onefont);
+
+  i {
+    color: var(--onecolor);
+  }
+}
+
+/* OTRO MENU */
+.menu {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.rovers {
+  img {
+    width: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hamburguer {
+    width: 50px;
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+    position: relative;
+    div {
+      width: 1.875rem;
+      height: 0.125rem;
+      margin: 0.3125rem 0;
+      background-color: var(--threecolor);
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+  li {
+    padding: 15px;
+  }
+  a {
+    text-decoration: none;
+    color: var(--threecolor);
+    font-family: var(--onefont);
+    font-size: 16px;
+  }
+}
+.contflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li:first-child a {
+  color: var(--onecolor);
+}
+
+/*  */
+/* HERO */
+/*  */
+
+.hero {
+  background-image: url("../imagenes/fondo.jpg");
+  background-position: center;
+  background-color: var(--threecolor);
+  background-blend-mode: multiply;
+  background-size: cover;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
