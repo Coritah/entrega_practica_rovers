@@ -52,4 +52,22 @@
       }
     }
   }
+  .gridD {
+    grid-template-columns: 1fr;
+  }
+
+  .gridD article {
+    width: 100%;
+  }
+}
+/* TABLET */
+@media (max-width: 768px) {
+  .gridD {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+
+    .gridD article:nth-child(3) {
+      grid-column: span 2;
+    }
+  }
 }

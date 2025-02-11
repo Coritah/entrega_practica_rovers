@@ -114,3 +114,72 @@ nav ul li:first-child a {
   margin-top: 10px;
 }
 
+/*  */
+/*OUR SERVICES */
+/*  */
+
+.titulosX {
+  text-align: center;
+
+  h2 {
+    font-family: var(--twofont);
+    font-size: 24px;
+  }
+  span {
+    color: var(--onecolor);
+  }
+}
+.caja {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 5px;
+
+  .linea {
+    width: 100px;
+    height: 2px;
+    background-color: var(--onecolor);
+    position: relative;
+  }
+  .equis {
+    position: absolute;
+    font-size: 20px;
+    color: var(--onecolor);
+    padding: 0 5px;
+  }
+}
+
+.gridD {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.gridD article {
+  padding: 20px;
+  border-left: 1px solid var(--threecolor);
+  text-align: left;
+  max-width: 250px;
+
+  h6 {
+    font-weight: 700;
+  }
+}
+article:first-child {
+  border-left: none;
+}
+
+.gridD i {
+  i {
+    border-radius: 1px solid var(--onecolor);
+  }
+}
+.leer-mas {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--onecolor);
+}
