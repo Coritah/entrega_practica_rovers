@@ -56,9 +56,9 @@
     grid-template-columns: 1fr;
   }
 
-  .gridD article {
+  /* .gridD article {
     width: 100%;
-  }
+  } */
 }
 /* TABLET */
 @media (max-width: 768px) {

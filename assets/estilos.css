@@ -124,6 +124,12 @@ nav ul li:first-child a {
   border-radius: 5px;
   margin-top: 10px;
 }
+.btn:hover {
+  background-color: transparent;
+  color: var(--onecolor);
+  border: 1px solid var(--onecolor);
+  transition: all 0.3s ease;
+}
 .icono2 {
   display: flex;
   list-style: none;
@@ -223,11 +229,35 @@ article:first-child {
     color: var(--onecolor);
   }
 }
+.imagenF {
+  position: relative;
+}
 .imagenF img {
   height: 250px;
   width: 400px;
   margin: 50px;
+  position: relative;
+  display: block;
+  pointer-events: none;
+}
+.cuadroG {
+  height: 250px;
+  width: 400px;
+  color: transparent;
+  position: absolute;
+  top: 47px;
+  left: 47px;
+  transition: transform 0.3s ease;
+  width: 81%;
+  z-index: -1;
+  height: 73%;
   border: 3px solid var(--onecolor);
+  margin: 0.5rem;
+  transform: rotate(10deg);
+  
+}
+.imagenF:hover .cuadroG {
+  transform: rotate(0deg);
 }
 .ultmF {
   display: flex;
