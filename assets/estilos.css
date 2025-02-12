@@ -101,9 +101,16 @@ nav ul li:first-child a {
   }
   span {
     color: var(--onecolor);
-    margin: 40px 0px;
+
+    padding: 10px 0px;
+    display: block;
+  }
+
+  p {
+    color: white;
   }
 }
+
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -113,13 +120,24 @@ nav ul li:first-child a {
   border-radius: 5px;
   margin-top: 10px;
 }
+.icono2 {
+  display: flex;
+  list-style: none;
+
+  li a i {
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+  }
+}
 
 /*  */
 /*OUR SERVICES */
 /*  */
 
-.titulosX {
+.our-serv {
   text-align: center;
+  padding-top: 20px;
 
   h2 {
     font-family: var(--twofont);
@@ -171,6 +189,11 @@ nav ul li:first-child a {
 }
 article:first-child {
   border-left: none;
+}
+.icono3 {
+  border: 1px solid var(--onecolor);
+  color: var(--onecolor);
+  padding: 5px;
 }
 
 .gridD i {
