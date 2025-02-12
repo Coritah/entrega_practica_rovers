@@ -53,7 +53,9 @@
     }
   }
   .gridD {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+    text-align: center;
+    align-items: center;
   }
 
   /* .gridD article {
@@ -67,7 +69,7 @@
     grid-template-rows: auto auto;
 
     .gridD article:nth-child(3) {
-      grid-column: 3 / -1;
+      grid-column: span 2 !important;
     }
   }
   .ultmF {
