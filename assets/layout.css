@@ -5,7 +5,9 @@
 @import url("../assets/estilos.css");
 
 @import url("../assets/mediaQ.css");
-
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --onecolor: #fa573a;
   --twocolor: #21242e;

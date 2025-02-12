@@ -65,6 +65,10 @@ nav ul {
     font-family: var(--onefont);
     font-size: 16px;
   }
+  a:hover {
+    transition: all 0.3s ease;
+    color: var(--onecolor);
+  }
 }
 .contflex {
   display: flex;
@@ -255,10 +259,21 @@ footer {
   height: 30px;
   display: block;
   font-family: var(--onefont);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
-.container {
-  max-width: 1200px; /* O el ancho que desees */
-  margin: 0 auto; /* Centra el contenido */
-  padding: 0 20px; /* Añade espacio a los lados */
+/* boton */
+.sube {
+  position: fixed;
+  margin-left: 95%;
+  margin-top: -5%;
+  color: var(--onecolor);
+  scroll-behavior: smooth;
+  cursor: pointer;
+  font-size: 30px;
 }
+
+/* hovers */
